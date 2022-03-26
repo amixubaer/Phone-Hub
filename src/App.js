@@ -5,20 +5,22 @@ import './App.css';
 function App() {
   const [phones, setPhones] = useState([]);
   const [cart, setCart] = useState([]);
-  console.log(phones);
+  // console.log(phones);
 
+  // add to cart
   const handleAddToCart = (phone) => {
     const newCart = [...cart, phone];
     setCart(newCart);
   };
-
+// getting random item
   const random  = () => { 
     const random = Math.floor(Math.random() * cart.length);
     console.log(random, cart[random]);
-   
+   alert("Product Id:"+random);
 
   }
-
+  
+// function for clearing cart
   const clear  = () => {
     const newCart = [];
     setCart(newCart);
@@ -48,7 +50,6 @@ function App() {
       ))}
       <div className='btn'>
                 <button id='btn-choose' onClick={random}>Choose One </button>
-               
                 <button id='btn-clear' onClick={clear}>Clear Cart </button>
             </div>
     </div>
