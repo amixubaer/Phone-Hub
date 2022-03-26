@@ -39,6 +39,20 @@ function App() {
       ))}
     </div>
   </div>
+
+  <div className="questions">
+    <h3>How React Works?</h3>
+    <p>React is a Javascript Library. It is developped by Facebook. React implements a virtual DOM that is basically a DOM tree representation in JavaScript. So when it needs to read or write to the DOM, it will use the virtual representation of it. Then the virtual DOM will try to find the most efficient way to update the browsers DOM.
+    </p>
+
+    <h3>Props vs State?</h3>
+    <p>In Props data is passed from one component to other. But in State data passes within the same component. 
+      Props is immutable whereas state is mutable.
+      Props are read only but the states are both read and write. 
+    </p>
+    <h3>How useState works?</h3>
+    <p>useState is a Hook that allows you to have state variables in functional components. You pass the initial state to this function and it returns a variable with the current state value (not necessarily the initial state) and another function to update this value.</p>
+  </div>
   </div>
     
       
