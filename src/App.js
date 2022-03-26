@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Phone from './components/Phone/phone';
-import Cart from './components/Cart/cart';
 import './App.css';
+import { render } from "@testing-library/react";
 
 function App() {
   const [phones, setPhones] = useState([]);
@@ -13,7 +13,17 @@ function App() {
     setCart(newCart);
   };
 
+  const random  = () => { 
+    const random = Math.floor(Math.random() * cart.length);
+    console.log(random, cart[random]);
+   
 
+  }
+
+  const clear  = () => {
+    const newCart = [];
+    setCart(newCart);
+  }
   useEffect(() => {
     fetch("product.json")
       .then((res) => res.json())
@@ -37,6 +47,11 @@ function App() {
       {cart.map((item) => (
         <h3 key ={item.id}>{item.name}</h3>
       ))}
+      <div className='btn'>
+                <button id='btn-choose' onClick={random}>Choose One </button>
+               
+                <button id='btn-clear' onClick={clear}>Clear Cart </button>
+            </div>
     </div>
   </div>
 
@@ -55,8 +70,8 @@ function App() {
   </div>
   </div>
     
+            
       
-   
   );
 }
 

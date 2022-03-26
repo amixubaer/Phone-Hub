@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.btn{
+  display: flex;
+  flex-direction: column;
+  padding: 0 25%;
+}
 .heading{
   text-align: center;
   margin-top: 10px;

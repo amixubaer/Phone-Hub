@@ -1,4 +1,4 @@
-# This is a project developped by Abu Jubaer
+# Phone Hub
 
 The Live site is [Phone Hub](https://phone-hub-xubaer.netlify.app).
 
