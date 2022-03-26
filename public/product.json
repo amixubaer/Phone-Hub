@@ -1,0 +1,74 @@
+[
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/l0jwbrk0/mobile/e/f/b/-original-imagcb64e6mywt9j.jpeg?q=70",
+        "id": 1,
+        "name" : "Realme 9",
+        "price" : 17499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/kpmy8i80/mobile/q/z/z/m3-pro-5g-mzb0952in-poco-original-imag3th6btkchjn2.jpeg?q=70",
+        "id": 2,
+        "name" : "Poco M3 Pro",
+        "price" : 11999 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/l0h1g280/mobile/e/h/c/-original-imagc9cqbgtgfzum.jpeg?q=70",
+        "id": 3,
+        "name" : "Redmi Note 10 Pro",
+        "price" : 16499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/m/t/r/iphone-13-pro-mlvv3hn-a-apple-original-imag6vpb7zg6bnvb.jpeg?q=70",
+        "id": 4,
+        "name" : "Iphone 13 Pro",
+        "price" : 119499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/kyeqjrk0/mobile/y/u/t/-original-imagan9qzdf2hbgy.jpeg?q=70",
+        "id": 5,
+        "name" : "Redmi Note 10s",
+        "price" : 16799 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/l0sgyvk0/mobile/z/4/7/-original-imagchh89wufbej2.jpeg?q=70",
+        "id": 6,
+        "name" : "Samsung Galaxy A03",
+        "price" : 10499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/knoxnrk0/mobile/s/d/d/g40-fusion-panv0002in-panv0006in-panv0010in-motorola-original-imag2aqcxrhhuwfh.jpeg?q=70",
+        "id": 7,
+        "name" : "MOTOROLA G40 Fusion",
+        "price" : 17499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/l0igvww0/mobile/6/8/o/-original-imagcafj5zcxz9wg.jpeg?q=70",
+        "id": 8,
+        "name" : "Poco M4 Pro",
+        "price" : 16999 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/kqjtd3k0/mobile/s/b/8/c11-2021-rmx3231-realme-original-imag4j4xkqchhfxk.jpeg?q=70",
+        "id": 9,
+        "name" : "Realme C11",
+        "price" : 7199 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/kmmcrrk0/mobile/y/o/q/8-rmx3085-realme-original-imagfgpgmm6h8ptt.jpeg?q=70",
+        "id": 10,
+        "name" : "Realme 8",
+        "price" : 15499 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/ku4ezrk0/mobile/p/e/4/c31-mzb0a0jin-poco-original-imag7bzqxgdhgf2n.jpeg?q=70",
+        "id": 11,
+        "name" : "Poco C31",
+        "price" : 8999 
+    },
+    {
+        "image" : "https://rukminim1.flixcart.com/image/416/416/kekadu80/mobile/y/q/5/oppo-f17-pro-cph2119-original-imafv7pxgndwsekf.jpeg?q=70",
+        "id": 12,
+        "name" : "Oppo F17 Pro",
+        "price" : 14990 
+    }
+]
