@@ -1,0 +1,18 @@
+.card{
+    border: 2px solid rgb(89, 0, 255);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.add-btn{
+
+color: blue;    
+background-color: rgb(79, 230, 154);
+border: 2px solid blue;
+cursor: pointer;
+}
+
+.icon{
+    color: brown;
+}

@@ -12,6 +12,18 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0 25%;
+  
+}
+
+#btn-choose{
+  background-color: aqua;
+  border: 2px solid green;
+  cursor: pointer;
+}
+#btn-clear{
+  background-color: rgb(253, 137, 143);
+  border: 2px solid red;
+  cursor: pointer;
 }
 .heading{
   text-align: center;
@@ -44,11 +56,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.modal-close-button {
-  margin-bottom: 20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
 }

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Phone from './components/Phone/phone';
 import './App.css';
-import { render } from "@testing-library/react";
 
 function App() {
   const [phones, setPhones] = useState([]);
